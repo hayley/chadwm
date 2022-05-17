@@ -142,6 +142,7 @@ static Key keys[] = {
         SHCMD("maim --select | xclip -selection clipboard -t image/png")},
 
 
+    { MODKEY|ShiftMask,                 XK_Return,  spawn,          SHCMD("dmenu_run") },
     { MODKEY,                           XK_c,       spawn,          SHCMD("rofi -show drun") },
     // { MODKEY,                           XK_Return,  spawn,          SHCMD("st")},
     { MODKEY,                           XK_Return,  spawn,          SHCMD("alacritty")},
