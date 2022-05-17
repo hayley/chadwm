@@ -55,7 +55,8 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static char *tags[] = {"", "", "", "", ""};
+// static char *tags[] = {"", "", "", "", ""};
+static char *tags[] = {"", "", "", "", "", "六", "七", "八", "九"};
 
 static const char* eww[] = { "eww", "open" , "eww", NULL };
 
@@ -65,7 +66,8 @@ static const Launcher launchers[] = {
 };
 
 static const int tagschemes[] = {
-    SchemeTag1, SchemeTag2, SchemeTag3, SchemeTag4, SchemeTag5
+    SchemeTag1, SchemeTag2, SchemeTag3, SchemeTag4, SchemeTag5,
+    SchemeTag1, SchemeTag2, SchemeTag3, SchemeTag4 // 6-9 tags
 };
 
 static const unsigned int ulinepad      = 5; /* horizontal padding between the underline and tag */
