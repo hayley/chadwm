@@ -141,7 +141,8 @@ static Key keys[] = {
 
 
     { MODKEY,                           XK_c,       spawn,          SHCMD("rofi -show drun") },
-    { MODKEY,                           XK_Return,  spawn,          SHCMD("st")},
+    // { MODKEY,                           XK_Return,  spawn,          SHCMD("st")},
+    { MODKEY,                           XK_Return,  spawn,          SHCMD("alacritty")},
     // { MODKEY,                           XK_Return, spawn,            SHCMD("st_pad && st")},
     
 
